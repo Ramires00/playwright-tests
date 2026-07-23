@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 const VALID_USERNAME = 'standard_user';
-const VALID_PASSWORD = 'secret_sauce_sauce';
+const VALID_PASSWORD = 'secret_sauce';
 const INVALID_PASSWORD = 'senha_errada';
 
 test('login', async ({ page }) => {
